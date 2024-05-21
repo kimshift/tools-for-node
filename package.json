@@ -1,0 +1,32 @@
+{
+  "name": "tools-for-node",
+  "version": "0.0.1",
+  "description": "基于babel构建的nodejs工具库",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "sh build/build.sh",
+    "release": "sh build/release.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimshift/tools-for-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kimshift/tools-for-node/issues"
+  },
+  "keywords": [
+    "nodejs",
+    "tools"
+  ],
+  "author": "kimshift",
+  "license": "ISC",
+  "files": [
+    "README.md",
+    "lib/"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.24.5",
+    "@babel/core": "^7.24.5",
+    "@babel/preset-env": "^7.24.5"
+  }
+}
