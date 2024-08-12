@@ -27,9 +27,9 @@ git push origin master
 echo "version: v$version 发布中..."
 if [[ $version =~ [beta] ]]; then # 如果版本号包含 beta  则发布到 bate 分支
   echo "version: v$version 发布到 beta 分支"
-  npm publish --tag beta
+  npm publish --tag beta --registry=https://registry.npmjs.org/
 else
   echo "version: v$version 发布到 master 分支"
-  npm publish
+  npm publish --registry=https://registry.npmjs.org/
 fi
 echo "version: v$version 发布成功！"
