@@ -1,6 +1,6 @@
 {
   "name": "tools-for-node",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "基于babel构建的nodejs工具库",
   "main": "lib/index.js",
   "scripts": {
