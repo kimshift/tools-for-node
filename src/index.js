@@ -1,4 +1,3 @@
-export { device } from './utils/device'
 export {
   mkdirPath,
   deleteFile,
