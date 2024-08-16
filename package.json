@@ -4,6 +4,7 @@
   "description": "基于babel构建的nodejs工具库",
   "main": "lib/index.js",
   "scripts": {
+    "start": "nodemon",
     "build": "sh build/build.sh",
     "release": "sh build/release.sh"
   },
@@ -27,7 +28,13 @@
   "devDependencies": {
     "@babel/cli": "^7.24.5",
     "@babel/core": "^7.24.5",
-    "@babel/preset-env": "^7.24.5"
+    "@babel/node": "^7.25.0",
+    "@babel/preset-env": "^7.24.5",
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "node-schedule": "^2.1.1",
+    "node-xlsx": "^0.24.0"
   },
   "volta": {
     "node": "20.12.2"

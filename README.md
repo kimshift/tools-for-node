@@ -13,9 +13,3 @@ npm install tools-for-node --save
 ```js
 import { API } from 'tools-for-node'
 ```
-
-### API
-
-| 名称          | API    | 说明 |
-| ------------- | ------ | ---- |
-| 获取 MAC 地址 | device |      |
